@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "sloth-recorder",
+	"version": "${version}",
+	"name": "SlothRecorder",
+	"description": "Records player behavior for SlothAC AI training.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sloth-recorder/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"space.kaelus.slothrecorder.SlothRecorder"
+		],
+		"client": [
+			"space.kaelus.slothrecorder.SlothRecorderClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
